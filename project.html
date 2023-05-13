@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>House Figure</title>
+	<style>
+		.container {		
+			margin: auto;		
+		}
+		.line{
+			height: 2px;
+			margin: auto;
+			margin-bottom: 4px;
+		}
+		.wall{
+			width: 200px;
+			margin: auto;
+		}
+		.ground{
+			width: 100%;
+		}
+		.red{
+			background-color: red;
+		}
+		.blue{
+			background-color: blue;
+		}
+		.gray{
+			background-color: gray;
+		}
+		.black{
+			background-color: black;
+		}
+
+		/* roof design */
+		.roof div:nth-child(2) {			
+				height: 2.1px;
+			}
+		.roof div:nth-child(3) {			
+				height: 2.2px;
+			}
+		.roof div:nth-child(4) {			
+				height: 2.3px;
+			}
+		.roof div:nth-child(5) {			
+				height: 2.4px;
+			}
+		.roof div:nth-child(6) {			
+				height: 2.5px;
+			}
+		.roof div:nth-child(7) {			
+				height: 2.6px;
+			}
+		.roof div:nth-child(8) {			
+				height: 2.7px;
+			}
+		.roof div:nth-child(9) {			
+				height: 2.8px;
+			}
+		.roof div:nth-child(10) {			
+				height: 3px;
+			}
+
+			/* wall design */
+		.wall div:nth-child(1) {			
+				height: 5px;
+			}
+		.wall div:nth-child(2) {			
+				height: 10px;
+			}
+		.wall div:nth-child(3) {			
+				height: 15px;
+			}
+		.wall div:nth-child(4) {			
+				height: 20px;
+			}
+		.wall div:nth-child(5) {			
+				height: 25px;
+			}
+		.wall div:nth-child(6) {			
+				height: 30px;
+			}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="roof">
+			<div class="line red" style="width: 4em"></div>
+			<div class="line blue" style="width: 6em"></div>
+			<div class="line red" style="width: 8em"></div>
+			<div class="line blue" style="width: 10em"></div>
+			<div class="line red" style="width: 12em"></div>
+			<div class="line blue" style="width: 14em"></div>
+			<div class="line red" style="width: 16em"></div>
+			<div class="line blue" style="width: 18em"></div>
+			<div class="line red" style="width: 20em"></div>
+			<div class="line blue" style="width: 22em"></div>
+		</div>
+		<div class="wall">
+			<div class="line gray ground"></div>
+			<div class="line black ground"></div>
+			<div class="line gray ground"></div>
+			<div class="line black ground"></div>
+			<div class="line gray ground"></div>
+			<div class="line black ground"></div>
+		</div>
+
+	</div>
+</body>
+</html>
